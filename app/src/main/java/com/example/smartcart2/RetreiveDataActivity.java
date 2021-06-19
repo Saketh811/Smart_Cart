@@ -214,7 +214,7 @@ public class RetreiveDataActivity extends AppCompatActivity implements PaymentRe
             options.put("theme.color", "#3399cc");
             options.put("currency", "INR");
             options.put("amount", "100");//pass amount in currency subunits
-            options.put("prefill.contact", "8886896768");
+            options.put("prefill.contact", "9999999999");
 
             // put email
             options.put("prefill.email", "xyz@gmail.com");
