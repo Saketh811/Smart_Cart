@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".RetreiveDataActivity">
+
+<ListView
+    android:id="@+id/mylistView"
+    android:layout_width="wrap_content"
+    android:layout_height="534dp"
+    android:padding="5dp" />
+
+
+    <TextView
+        android:id="@+id/tvtotal1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="585dp"
+        android:layout_weight="1"
+        android:fontFamily=""
+        android:text="The Total amount is:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvtotal"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:textAlignment="textEnd"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="585dp"
+        android:layout_weight="1"
+        android:fontFamily=""
+        android:text="tvtotal"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:layout_marginTop="630dp"
+        android:layout_weight="1"
+        android:text="Proceed To Pay"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
